@@ -1,0 +1,12 @@
+import React from 'react';
+
+const Banner = () => {
+    return (
+        <div className='border-amber-400 border-2 flex justify-between w-11/12 mx-auto bg-gradient-to-r from-[#632EE3] to-[#9F62F2]'>
+            <img src="../../assets/vector1.png" alt="" />
+            <img src="../../assets/vector2.png" alt="" />
+        </div>
+    );
+};
+
+export default Banner;
