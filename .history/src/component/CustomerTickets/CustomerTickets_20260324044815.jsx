@@ -7,7 +7,6 @@ const CustomerTickets = ({customerPromise}) => {
     return (
         <div className='w-11/12 mx-auto'>
          <h1 className='font-semibold text-[#34485A] text-[18px] mt-15'>Customer Tickets</h1>
-         <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
 
 
     {
@@ -20,14 +19,16 @@ const CustomerTickets = ({customerPromise}) => {
      <button className='rounded-4xl bg-[#B9F8CF] w-[70px] h-[30px] flex items-center gap-1 p-2 font-medium text-[15px]'><span className='bg-[#02A53B] rounded-full w-3 h-3'></span>Open</button>
 
     </div>
+    "description": "Customer unable to login with correct credentials.",
+    "description": "Customer unable to login with correct credentials.",
     <p className='text-[#627382] text-[12px] font-medium'>{customer.description}</p>
     <div className="flex justify-between card-actions">
         <div className='flex gap-2'>
         <p className='text-[#627382] font-medium'>#1001</p>
-        <p className='text-[#F83044] font-medium'>{customer.priority}</p>
+        <p className='text-[#F83044] font-medium'>HIGH PRIORITY</p>
         </div>
         <div className='flex gap-3'>
-            <p className='text-[#627382] font-medium'>{customer.customer}</p>
+            <p className='text-[#627382] font-medium'>Jhon Smith</p>
             <p className='text-[#627382] font-medium'><FontAwesomeIcon icon ={faCalendarDays}  />1/2/23</p>
 
         </div>
@@ -38,7 +39,7 @@ const CustomerTickets = ({customerPromise}) => {
         )
     }
 
-        </div> 
+         
      
         </div>
     );

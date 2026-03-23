@@ -7,7 +7,6 @@ const CustomerTickets = ({customerPromise}) => {
     return (
         <div className='w-11/12 mx-auto'>
          <h1 className='font-semibold text-[#34485A] text-[18px] mt-15'>Customer Tickets</h1>
-         <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
 
 
     {
@@ -27,7 +26,7 @@ const CustomerTickets = ({customerPromise}) => {
         <p className='text-[#F83044] font-medium'>{customer.priority}</p>
         </div>
         <div className='flex gap-3'>
-            <p className='text-[#627382] font-medium'>{customer.customer}</p>
+            <p className='text-[#627382] font-medium'>Jhon Smith</p>
             <p className='text-[#627382] font-medium'><FontAwesomeIcon icon ={faCalendarDays}  />1/2/23</p>
 
         </div>
@@ -38,7 +37,7 @@ const CustomerTickets = ({customerPromise}) => {
         )
     }
 
-        </div> 
+         
      
         </div>
     );

@@ -5,9 +5,8 @@ const CustomerTickets = ({customerPromise}) => {
     const customerTicket = use(customerPromise)
     console.log(customerTicket)
     return (
-        <div className='w-11/12 mx-auto'>
+        <div className='w-11/12 mx-auto grid grid-cols-2'>
          <h1 className='font-semibold text-[#34485A] text-[18px] mt-15'>Customer Tickets</h1>
-         <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
 
 
     {
@@ -38,7 +37,7 @@ const CustomerTickets = ({customerPromise}) => {
         )
     }
 
-        </div> 
+         
      
         </div>
     );
