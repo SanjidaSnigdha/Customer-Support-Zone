@@ -1,4 +1,4 @@
-import { Suspense, useState } from 'react'
+import { useState } from 'react'
 import './App.css'
 import Navbar from './component/Navbar/Navbar'
 import Banner from './component/Banner/Banner'
@@ -10,7 +10,6 @@ const fetchTickets = async()=>{
 }
 
 function App() {
-  const customerPromise = fetchTickets()
 
   return (
     <>
@@ -18,11 +17,7 @@ function App() {
    <Navbar></Navbar>
    <div className='flex-1 bg-base-200'>
     <Banner></Banner>
-    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
-}>
-          <CustomerTickets customerPromise={customerPromise}></CustomerTickets>
-
-    </Suspense>
+    <CustomerTickets fetchTickets={fetchTickets}></CustomerTickets>
    </div>
    </div>
   

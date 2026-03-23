@@ -1,0 +1,92 @@
+[
+  {
+    "id": 1,
+    "title": "Login Issue",
+    "description": "Customer unable to login with correct credentials.",
+    "customer": "Alice Johnson",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-20T10:15:00Z"
+  },
+  {
+    "id": 2,
+    "title": "Payment Failure",
+    "description": "Transaction failed while trying to purchase subscription.",
+    "customer": "Bob Smith",
+    "priority": "High",
+    "status": "Pending",
+    "createdAt": "2026-03-21T14:22:00Z"
+  },
+  {
+    "id": 3,
+    "title": "Feature Request",
+    "description": "Request to add dark mode in dashboard.",
+    "customer": "Charlie Brown",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-22T09:30:00Z"
+  },
+  {
+    "id": 4,
+    "title": "Bug in Reports",
+    "description": "Monthly report shows incorrect sales numbers.",
+    "customer": "Diana Prince",
+    "priority": "High",
+    "status": "In Progress",
+    "createdAt": "2026-03-22T11:45:00Z"
+  },
+  {
+    "id": 5,
+    "title": "Password Reset",
+    "description": "Customer forgot password and cannot reset it via email.",
+    "customer": "Ethan Hunt",
+    "priority": "Medium",
+    "status": "Resolved",
+    "createdAt": "2026-03-23T08:10:00Z"
+  },
+  {
+    "id": 6,
+    "title": "Account Deactivation",
+    "description": "Customer wants to deactivate account permanently.",
+    "customer": "Fiona Gallagher",
+    "priority": "Low",
+    "status": "Pending",
+    "createdAt": "2026-03-23T12:05:00Z"
+  },
+  {
+    "id": 7,
+    "title": "App Crash",
+    "description": "Mobile app crashes when opening settings page.",
+    "customer": "George Martin",
+    "priority": "High",
+    "status": "Open",
+    "createdAt": "2026-03-24T07:50:00Z"
+  },
+  {
+    "id": 8,
+    "title": "Invoice Issue",
+    "description": "Invoice generated shows wrong billing amount.",
+    "customer": "Hannah Lee",
+    "priority": "Medium",
+    "status": "In Progress",
+    "createdAt": "2026-03-24T09:30:00Z"
+  },
+  {
+    "id": 9,
+    "title": "Email Notifications",
+    "description": "Customer not receiving notification emails.",
+    "customer": "Ian Curtis",
+    "priority": "Medium",
+    "status": "Open",
+    "createdAt": "2026-03-24T10:00:00Z"
+  },
+  {
+    "id": 10,
+    "title": "Data Export",
+    "description": "Unable to export CSV from analytics dashboard.",
+    "customer": "Jessica Alba",
+    "priority": "Low",
+    "status": "Resolved",
+    "createdAt": "2026-03-24T11:15:00Z"
+  }
+]

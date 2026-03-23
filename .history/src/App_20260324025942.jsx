@@ -18,8 +18,7 @@ function App() {
    <Navbar></Navbar>
    <div className='flex-1 bg-base-200'>
     <Banner></Banner>
-    <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
-}>
+    <Suspense>
           <CustomerTickets customerPromise={customerPromise}></CustomerTickets>
 
     </Suspense>
