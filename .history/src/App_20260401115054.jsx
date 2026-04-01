@@ -3,7 +3,6 @@ import './App.css'
 import Navbar from './component/Navbar/Navbar'
 import Banner from './component/Banner/Banner'
 import CustomerTickets from './component/CustomerTickets/CustomerTickets'
-import TaskStatus from './component/TaskStatus/TaskStatus'
 
 const fetchTickets = async()=>{
   const res = await fetch("/customers.json")
@@ -21,10 +20,7 @@ function App() {
     <Banner></Banner>
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
 }>
-          <div className='w-11/13 mx-auto flex justify-between'>
           <CustomerTickets customerPromise={customerPromise}></CustomerTickets>
-           <TaskStatus></TaskStatus> 
-          </div>
 
     </Suspense>
    </div>

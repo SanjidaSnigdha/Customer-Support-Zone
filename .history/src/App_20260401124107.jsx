@@ -17,14 +17,12 @@ function App() {
     <>
     <div className='flex flex-col'>
    <Navbar></Navbar>
-   <div className='flex-1 bg-base-200 mt-5'>
+   <div className='flex-2 bg-base-200 mt-5'>
     <Banner></Banner>
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
 }>
-          <div className='w-11/13 mx-auto flex justify-between'>
           <CustomerTickets customerPromise={customerPromise}></CustomerTickets>
-           <TaskStatus></TaskStatus> 
-          </div>
+          <TaskStatus></TaskStatus>
 
     </Suspense>
    </div>

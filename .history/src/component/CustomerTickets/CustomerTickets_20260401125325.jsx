@@ -6,14 +6,15 @@ const CustomerTickets = ({customerPromise}) => {
     console.log(customerTicket)
 
     return (
-                <div className='w-11/12 mx-auto'>
-
+        <div className='w-11/12 mx-auto'>
          <h1 className='font-semibold text-[#34485A] text-[18px] mt-15'>Customer Tickets</h1>
          <div className='grid md:grid-cols-2 grid-cols-1 gap-2'>
+
+
     {
         customerTicket.map(customer=>
            
-              <div className="card w-96 bg-base-100 card-xs shadow-sm mt-3 rounded-none">
+              <div className="card w-full bg-base-100 card-xs shadow-sm mt-3 rounded-none">
   <div className="card-body">
     <div className='flex justify-between'>
      <h2 className="card-title text-[#001931] font-medium text-[15px]">{customer.title}</h2>

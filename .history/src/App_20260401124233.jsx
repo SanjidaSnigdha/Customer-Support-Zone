@@ -21,10 +21,8 @@ function App() {
     <Banner></Banner>
     <Suspense fallback={<span className="loading loading-spinner loading-xl"></span>
 }>
-          <div className='w-11/13 mx-auto flex justify-between'>
           <CustomerTickets customerPromise={customerPromise}></CustomerTickets>
-           <TaskStatus></TaskStatus> 
-          </div>
+          <TaskStatus></TaskStatus>
 
     </Suspense>
    </div>
